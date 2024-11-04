@@ -1,7 +1,7 @@
 #main.py
 
 from data_loader import get_data_loaders
-from model import CRISPRCNN  # or CRISPRCNN if using CNN
+from model import CRISPRCNN 
 from train import train_model
 from evaluate import evaluate_model
 import torch

@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-sequence_length = 23  # Adjust based on your actual sequence length
+sequence_length = 23  
 
 class CRISPRCNN(nn.Module):
     def __init__(self, sequence_length):
